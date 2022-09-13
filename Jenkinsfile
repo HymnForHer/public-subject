@@ -27,7 +27,7 @@ pipeline{
                     credentialsId: 'TokyoKey',
                     disableHostKeyChecking: true,
                     installation : "Ansible",
-                    playbook: 'main.yml',
+                    playbook: 'playbook.yml',
                     inventory: 'hosts',
                     become: 'yes',
                 )
